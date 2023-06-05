@@ -7,7 +7,7 @@ During a leadership training, we were presented with the following game:
 - Seven of us (including I) were positioned in a row of seven red tiles;
 - Each "red player" faced the back of another "red player";
 - The other seven of us were positioned in a row of blue seven tiles in the same way, but symmetrically facing the front of the red row;
-- Between us there was an empty tile;
+- Between the red tiles and the blue tiles there was an empty tile;
 - We we supposed to move forward, only;
 - A person was allowed to move to the empty tile if they were in front of it, or when they were in front of another person with an empty space behind them;
 - Only one person was allowed to move at a time;
