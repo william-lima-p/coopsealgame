@@ -108,40 +108,6 @@ f.no_movable_numbers <- function(state){
   length(f.movable_numbers(state)) == 0
 }
 
-f.winning_choice <- function(state){
-
-  movable <- f.movable_numbers(state)
-
-  choice <- movable[1]
-  moved <- f.swap(state, choice)
-
-  if(f.win(moved)){return(moved)}
-
-  game_over <- moved %>% f.game_over()
-
-  # if it's not game over, checks if all next possible moves yield in game over anyway
-  if(!game_over){
-
-    upcoming_movable <- moved %>% f.movable_numbers()
-    if(
-      all(upcoming_movable %>% sapply(\(x) x %>% f.swap(moved, .) %>% f.game_over() ))
-    ){
-      choice <- movable[2]
-      moved <- f.swap(state, choice)
-    }
-
-  } else{
-    # if it's game over, just move the only other movable
-
-    choice <- movable[2]
-    moved <- f.swap(state, choice)
-
-  }
-
-  return(choice)
-
-}
-
 f.winning_move <- function(state){
 
   movable <- f.movable_numbers(state)
