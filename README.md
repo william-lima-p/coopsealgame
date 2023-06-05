@@ -26,7 +26,7 @@ If you want a suggestion, we have the best move for you!
 ```{r, eval = FALSE}
 state <- state %>% f.winning_move(x)
 ```
-Am I at the unwinnable scenario yet?
+Am I in the unwinnable scenario yet?
 ```{r, eval = FALSE}
 state %>% f.game_over(x)
 ```
