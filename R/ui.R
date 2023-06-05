@@ -18,8 +18,7 @@ my_ui <- function(){
       # Sidebar with a slider and selection inputs
       sidebarPanel(
         actionButton('play', 'Play!'),
-        actionButton('clue', 'Make the right move for me!'),
-        actionButton('solve', 'Solve')
+        actionButton('clue', 'Make the right move for me!')
       ),
       mainPanel()
     ),
