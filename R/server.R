@@ -31,17 +31,21 @@ my_server <-  function(input, output, session) {
 
     req(rv.current_state())
 
-    lapply(rv.current_state(), function(number){
+    tagList(
+      'pick a number',
+      br(),
+      lapply(rv.current_state(), function(number){
 
-      if(number > 0){
-        paste0("<a href='#' onclick='Shiny.setInputValue(\"selected_number\", \"", ' ', number, "\");' style='font-size: 40px; color:red'>", '&nbsp', number, "</a>") %>% HTML()
-      } else if(number < 0){
-        paste0("<a href='#' onclick='Shiny.setInputValue(\"selected_number\", \"", number, "\");' style='font-size: 40px; color:blue'>", number, "</a>") %>% HTML()
-      } else{
-        paste0("<a style = 'font-size:45px'>", "_", "</a>")  %>% HTML()
-      }
+        if(number > 0){
+          paste0("<a href='#' onclick='Shiny.setInputValue(\"selected_number\", \"", ' ', number, "\");' style='font-size: 40px; color:red'>", '&nbsp', number, "</a>") %>% HTML()
+        } else if(number < 0){
+          paste0("<a href='#' onclick='Shiny.setInputValue(\"selected_number\", \"", number, "\");' style='font-size: 40px; color:blue'>", number, "</a>") %>% HTML()
+        } else{
+          paste0("<a style = 'font-size:45px'>", "_", "</a>")  %>% HTML()
+        }
 
-    })
+      })
+    )
 
   })
 

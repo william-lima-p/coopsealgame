@@ -1,8 +1,8 @@
 my_ui <- function(){
 
   fluidPage(
-    # theme = OSUICode::nes_theme,
-    theme = bs_theme(bootswatch = 'sketchy'),
+    theme = OSUICode::nes_theme,
+    # theme = bs_theme(bootswatch = 'sketchy'),
     h2('Rules'),
     'Negative numbers move only to the right',
     br(),
@@ -14,7 +14,7 @@ my_ui <- function(){
     br(),
     "You lose if it's not possible to make a valid move",
     hr(),
-    numericInput('crew_size', 'crew size', value = 7),
+    numericInput('crew_size', 'select a size', value = 7),
     sidebarLayout(
       # Sidebar with a slider and selection inputs
       sidebarPanel(
