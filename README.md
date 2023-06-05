@@ -4,7 +4,7 @@ A cool game that I discovered during a leadership training.
 In order to run the game, install the package and run `coopsealgame::run_app()`.
 
 During a leadership training, we were presented with the following game:
-- Seven of us (including I) were positioned in a row of seven red tiles;
+- Seven of us (including I) were positioned in a row of seven red tiles, each person facing the back of another "red" player;
 - The other seven of us were positioned in a row of blue seven tiles, facing the red row;
 - Between us there was an empty tile;
 - We we supposed to move forward, only;
