@@ -1,10 +1,10 @@
 # coopsealgame
-A cool game that I discovered during a leadership training
+A cool game that I discovered during a leadership training.
 
-In order to run the game, install the package and run `coopsealgame::run_app()`
+In order to run the game, install the package and run `coopsealgame::run_app()`.
 
 During a leadership training, we were presented with the following game:
-- Seven of us (inclusing I) were positioned in a row of seven red tiles;
+- Seven of us (including I) were positioned in a row of seven red tiles;
 - The other seven of us were positioned in a row of blue seven tiles, facing the blue row;
 - Between us there was an empty tile;
 - A person was allowed to move to the empty tile if they were in front of it, or when they were in front of another person with an empty space behind them;
@@ -42,3 +42,4 @@ I'm bored and just want the solution:
 ```{r, eval = FALSE}
 f.initial_state(n = 15) %>% f.apply_winning_strategy()
 ```
+Anyway, the "moral" of the story during the leadership training was that, at each situation, two people *could* solve the problem, but only one *should*, and it was up to them to figure it out. I don't know if it was the best possible analogy, but at least the game was very interesting.
