@@ -1,5 +1,3 @@
-library(dplyr)
-
 f.initial_state <- function(n = 15){
 
   k <- n %/% 2
