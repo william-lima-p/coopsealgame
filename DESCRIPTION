@@ -13,4 +13,5 @@ Depends:
     dplyr,
     shiny,
     bslib,
-    shinyjs
+    shinyjs,
+    OSUICode
