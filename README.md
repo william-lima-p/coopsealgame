@@ -7,6 +7,7 @@ During a leadership training, we were presented with the following game:
 - Seven of us (including I) were positioned in a row of seven red tiles;
 - The other seven of us were positioned in a row of blue seven tiles, facing the red row;
 - Between us there was an empty tile;
+- We we supposed to move forward, only;
 - A person was allowed to move to the empty tile if they were in front of it, or when they were in front of another person with an empty space behind them;
 - Only one person was allowed to move at a time;
 - The objective was to organize ourselves, so that everyone that started in the blue tiles got onto red tiles, and vice versa.
