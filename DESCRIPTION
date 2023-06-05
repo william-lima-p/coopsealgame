@@ -1,11 +1,10 @@
 Package: coopsealgame
 Type: Package
-Title: What the Package Does (Title Case)
+Title: SEAL Game
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: williamlima.algebra@gmail.com
+Maintainer: williamlima.algebra@gmail.com
+Description: A cool game app based on a group dynamics during a leadership training
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
