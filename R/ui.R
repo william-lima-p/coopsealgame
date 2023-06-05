@@ -1,7 +1,8 @@
 my_ui <- function(){
 
   fluidPage(
-    theme = OSUICode::nes_theme,
+    # theme = OSUICode::nes_theme,
+    theme = bs_theme(bootswatch = 'sketchy'),
     h2('Rules'),
     'Negative numbers move only to the right',
     br(),

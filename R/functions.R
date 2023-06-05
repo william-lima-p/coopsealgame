@@ -156,10 +156,12 @@ f.winning_move <- function(state){
   if(!game_over){
 
     upcoming_movable <- moved %>% f.movable_numbers()
-    if(
-      all(upcoming_movable %>% sapply(\(x) x %>% f.swap(moved, .) %>% f.game_over() ))
-    ){
-      moved <- f.swap(state, movable[2])
+    if(length(upcoming_movable) > 0){
+      if(
+        all(upcoming_movable %>% sapply(\(x) x %>% f.swap(moved, .) %>% f.game_over() ))
+      ){
+        moved <- f.swap(state, movable[2])
+      }
     }
 
   } else if(!is.na(movable[2])){
