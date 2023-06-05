@@ -13,7 +13,7 @@ During a leadership training, we were presented with the following game:
 - Only one person was allowed to move at a time;
 - The objective was to organize ourselves, so that everyone that started in the blue tiles got onto red tiles, and vice versa.
 
-We had to do that within four minutes, so organization was needed. Everyone was desperate to conclude the task, so we kept saying outloud who should move. Soon enough after some failures, we managed to identify situations where the game was unwinnable. Tjen, all we had to do in order to win was to avoid this unwinnable scenario.
+We had to do that within four minutes, so organization was needed. Everyone was desperate to conclude the task, so we kept saying outloud who should move. Soon enough after some failures, we managed to identify situations where the game was unwinnable. Then, all we had to do in order to win was to avoid this unwinnable scenario.
 Arriving at home later in the day, I decided to make a code that simulated the game.
 
 To generate an initial state (schema of tiles), we run:
